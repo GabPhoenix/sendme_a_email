@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section>
+        <div class="read">
+            <div class="container__left">
+                <div class="descp">
+                    <div class="sub__io">
+                        <ion-icon class="io__mail" name="mail-outline" align="left"></ion-icon>
+                    </div>
+                    <div class="sub__h1">
+                        <h1>Email</h1>
+                    </div>
+                </div>
+                <p>Esse formulário faz parte de testes de aprendizado
+                    de html/css e é utilizado para me enviar emails.
+                    <br>
+                    Atenciosamente, Gabriel Carvalho.
+                </p>
+            </div>
+        </div>
+        <div class="send">
+            <div class="container__right">
+                <h2>Me envie um email: </h2>
+                <form action="https://formsubmit.co/anjomito26@gmail.com" method="post">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                    <input type="hidden" name="_autoresponse" value="Informações enviadas">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="subject" placeholder="Assunto" required>
+                    <textarea id="msg" name="message" placeholder="Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="icon__git">
+            <a href="https://github.com/GabPhoenix"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="poweredby">
+            <a href="https://github.com/GabPhoenix"><p>GabPhoenix</p></a>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

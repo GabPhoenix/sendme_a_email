@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('/img/bgimg.jpeg');
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0;
+    background-position: 30% 45%;   
+    background-size: cover;   
+    justify-content: space-between;
+    align-items:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 32px 0 rgba(25, 117, 160, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0% 5%;
+}
+
+.back{
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+
+a, a:hover, a:visited, a:link, a:active{
+    color: rgb(167, 211, 231);
+    text-decoration: none;
+}
+
+.bygit{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;   
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0% 45%;
+}
+
+.bygit .icon__git{
+    padding-top: 6%;
+    font-size: 60px;
+    margin-left: 2.5%;
+}
+
+.bygit .poweredby{
+    font-size: 22px;
+}
